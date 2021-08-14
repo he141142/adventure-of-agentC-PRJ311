@@ -266,7 +266,8 @@ public class Operation {
                break;
            case "wall":   
                break;
-            -case "gate": 0\=-0987Y6T5R4Q1       `123cxáDFUIOP[Ư\78/]               currFloor = map.getNextFloor();
+            case "gate":
+                currFloor = map.getNextFloor();
                player.setPosition(currFloor.getStartPosX(), currFloor.getStartPosY());
                player.addFloors();
                if(map.flag==true){
